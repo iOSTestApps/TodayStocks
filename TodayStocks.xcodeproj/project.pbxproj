@@ -543,7 +543,7 @@
 					};
 					BEDDCA451AE853B8000B10D0 = {
 						CreatedOnToolsVersion = 6.3;
-						DevelopmentTeam = KXEZVY76NG;
+						DevelopmentTeam = 8G9SJKMB6B;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -854,7 +854,7 @@
 				INFOPLIST_FILE = App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = TodayStocks;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "479a8968-4e19-4b3a-85a1-0b9c3a61f292";
 			};
 			name = Debug;
 		};
@@ -872,7 +872,7 @@
 				INFOPLIST_FILE = App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = TodayStocks;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "479a8968-4e19-4b3a-85a1-0b9c3a61f292";
 			};
 			name = Release;
 		};
@@ -1010,7 +1010,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "56e16e71-2e1e-49aa-a24e-4ea7eb849cf6";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -1027,7 +1027,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "56e16e71-2e1e-49aa-a24e-4ea7eb849cf6";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
