@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D3F0086B163E48203458427 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BE8631FA458279C6848BA1 /* CoreText.framework */; };
+		73B6C3C174AC3CF3F4EA5CA5 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 153E1BB92011F016F411AFF3 /* AssetsLibrary.framework */; };
 		BE2EAC001AE9E03200518A62 /* Stock.h in Headers */ = {isa = PBXBuildFile; fileRef = BE2EABFE1AE9E03200518A62 /* Stock.h */; };
 		BE2EAC011AE9E03200518A62 /* Stock.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2EABFF1AE9E03200518A62 /* Stock.m */; };
 		BE2EAC041AE9E13A00518A62 /* StockBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = BE2EAC021AE9E13A00518A62 /* StockBuilder.h */; };
@@ -53,6 +55,9 @@
 		BEE0F2321AFD82300013C88C /* TickerSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE0F2311AFD82300013C88C /* TickerSelectorViewController.m */; };
 		BEE0F2351AFD872A0013C88C /* Portfolio.h in Headers */ = {isa = PBXBuildFile; fileRef = BEE0F2331AFD872A0013C88C /* Portfolio.h */; };
 		BEE0F2361AFD872A0013C88C /* Portfolio.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE0F2341AFD872A0013C88C /* Portfolio.m */; };
+		C08B0CB7F5473D896CFC198C /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0841D8612377287304C31C93 /* BuddyBuildSDK.framework */; };
+		DC5BE0E0F3FC81FC4E076DD7 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0227798424AC911A16EDE8 /* CoreTelephony.framework */; };
+		DE74D0EC8BE480D15D4A5078 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A04993C1CE68F6267A8E890 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -126,6 +131,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0841D8612377287304C31C93 /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
+		153E1BB92011F016F411AFF3 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		18BE8631FA458279C6848BA1 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		7A04993C1CE68F6267A8E890 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9B0227798424AC911A16EDE8 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		BE2EABFE1AE9E03200518A62 /* Stock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stock.h; sourceTree = "<group>"; };
 		BE2EABFF1AE9E03200518A62 /* Stock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stock.m; sourceTree = "<group>"; };
 		BE2EAC021AE9E13A00518A62 /* StockBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockBuilder.h; sourceTree = "<group>"; };
@@ -194,6 +204,11 @@
 				BEDDCA391AE85391000B10D0 /* NetworkKit.framework in Frameworks */,
 				BEAE2AC61AF7B21600F293C8 /* Crashlytics.framework in Frameworks */,
 				BEAE2AC51AF7B21600F293C8 /* Fabric.framework in Frameworks */,
+				C08B0CB7F5473D896CFC198C /* BuddyBuildSDK.framework in Frameworks */,
+				73B6C3C174AC3CF3F4EA5CA5 /* AssetsLibrary.framework in Frameworks */,
+				0D3F0086B163E48203458427 /* CoreText.framework in Frameworks */,
+				DC5BE0E0F3FC81FC4E076DD7 /* CoreTelephony.framework in Frameworks */,
+				DE74D0EC8BE480D15D4A5078 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,6 +379,11 @@
 			isa = PBXGroup;
 			children = (
 				BEDDCA481AE853B8000B10D0 /* NotificationCenter.framework */,
+				0841D8612377287304C31C93 /* BuddyBuildSDK.framework */,
+				153E1BB92011F016F411AFF3 /* AssetsLibrary.framework */,
+				18BE8631FA458279C6848BA1 /* CoreText.framework */,
+				9B0227798424AC911A16EDE8 /* CoreTelephony.framework */,
+				7A04993C1CE68F6267A8E890 /* SystemConfiguration.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
